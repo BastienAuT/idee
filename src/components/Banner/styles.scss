@@ -1,0 +1,22 @@
+.banner {
+    display:flex;
+    justify-content: space-around;
+    background-color: #f8f9fc;
+    height: 40rem;
+    margin:auto;
+    align-items: center;
+
+    &__image {
+        border-radius: 50%;
+        width: 30rem;
+        height: 30rem;
+        border: 1rem solid #f8f9fc ;        
+    }
+    &__text {
+        display:flex;
+        flex-direction: column;
+        align-self: center;
+        font-size: 6rem;
+
+    }
+}

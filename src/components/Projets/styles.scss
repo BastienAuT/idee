@@ -1,0 +1,40 @@
+.projets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__card {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.041);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    width: 40rem;
+    height: 20rem;
+  }
+
+  &__card:hover {
+      filter: blur(0);
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      border: 1px solid rgba(121, 121, 121, 0.336);
+  }
+
+  div:hover {
+    filter: grayscale(0%);
+    background-color: rgba(111, 0, 255, 0.089);
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  &__try {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,40 @@
+// --------
+// Colors :
+// --------
+
+// $color--*color*-*light/medium/dark*
+
+$color--grey-dark: #2f2f2f;
+$color--grey-very-dark: #292929;
+$color--green-light: #b8e8d8;
+$color--blue-light: #e1ecfe;
+$color--yellow-light: #fffec5;
+$color--orange-light: #ffe9bd;
+$color--orange-medium: #e9ab9c;
+
+// $gradient--*color*-*light/medium/dark*
+
+$gradient--blue-light : linear-gradient(to bottom, #9ec0ff, #e8f1ff);
+$gradient--yellow-light : linear-gradient(to bottom, #fed68e, #fef4db);
+$gradient--green-light : linear-gradient(to bottom, #88d4ba, #d8f3ea);
+
+// ---------
+// General :
+// ---------
+
+$radius: 0.5rem;
+$gutter: 1rem;
+
+// -------------
+// Breakpoints :
+// -------------
+
+$tablet: 700px;
+$desktop: 1000px;
+
+// -------
+// Fonts :
+// -------
+
+$title-font: 'Satisfy', sans-serif;
+$main-font: 'Nunito', sans-serif;

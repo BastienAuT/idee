@@ -1,0 +1,16 @@
+.creations {
+    &__img{
+        max-width: 50rem;
+    }
+}
+
+.swiper-wrapper{
+    margin:auto;
+}
+
+.swiper-slide {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+

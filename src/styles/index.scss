@@ -1,0 +1,33 @@
+@use 'reset';
+@use 'vars';
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../assets/fonts/Nunito-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  src: url('../assets/fonts/Satisfy-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.6rem;
+}
+
+button {
+  color: vars.$color--grey-dark;
+}
+
